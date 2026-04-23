@@ -2,13 +2,13 @@ let cursos = [];
 function adicionarCurso(nome, carga, descricao) {
   if (!nome || !carga || !descricao){
   alert("Preencha todos os campos!");
-  return
+  return;
   }
   
   let curso = {
-    Design Gráfico,
-    360,
-    Curso que visa capacitar e aperfeiçoar os alunos na edição de imagens e vídeos,
+    nome,
+    carga,
+    descricao,
   };
 
   cursos.push(curso);
@@ -18,7 +18,9 @@ function listarCursos(){
   return cursos;
 }
 
-function removerCursos(index) {
+function removerCurso(index) {
   cursos.splice(index, 1);
 }
 
+adicionarCurso("Design Gráfico", 360, "Curso de edição");
+adicionarCurso("Programação de Jogos", 1200, "Curso de programação");
