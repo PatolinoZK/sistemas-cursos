@@ -17,3 +17,8 @@ function adicionarCurso(nome, carga, descricao) {
 function listarCursos(){
   return cursos;
 }
+
+function removerCursos(index) {
+  cursos.splice(index, 1);
+}
+
