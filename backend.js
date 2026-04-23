@@ -13,3 +13,7 @@ function adicionarCurso(nome, carga, descricao) {
 
   cursos.push(curso);
 }
+
+function listarCursos(){
+  return cursos;
+}
