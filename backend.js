@@ -24,3 +24,5 @@ function removerCurso(index) {
 
 adicionarCurso("Design Gráfico", 360, "Curso de edição");
 adicionarCurso("Programação de Jogos", 1200, "Curso de programação");
+adicionarCurso("Python", 200,"Linguagem de programação")
+adicionarCurso("C#", 200,"Linguagem de programação")
