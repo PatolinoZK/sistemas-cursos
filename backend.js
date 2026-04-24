@@ -1,3 +1,4 @@
+
 let cursos = [];
 function adicionarCurso(nome, carga, descricao) {
   if (!nome || !carga || !descricao){
@@ -28,3 +29,4 @@ adicionarCurso("Python", 200,"Linguagem de programação")
 adicionarCurso("C#", 200,"Linguagem de programação")
 
 listarCursos()
+
